@@ -1,0 +1,326 @@
+.navbar-static-top {
+    background-color: #1ab394;
+
+
+}
+
+ .nav div.dropdown.open > a {
+     background-color: #1ab394;
+     color:white;
+ }
+.nav.navbar-right > div > a, .profile-element{
+    color:white;
+
+
+}
+.nav.navbar-right{
+
+    margin-top: 0.8em;
+    margin-right: 15px;
+}
+
+.font-bold{
+    font-weight: 500;
+}
+
+.nav>li>a {
+    font-weight: 400;
+    color: #676a6c;
+    padding: 14px 20px 14px 25px;
+}
+
+
+.padding2{
+  padding-bottom:5em;
+
+  border-top:0px;
+  margin-top: -2em;
+}
+
+.padding3{
+  padding-bottom:3em;
+
+  border-top:0px;
+  margin-top: -2em;
+}
+
+.inline{
+  width:100%;
+  padding-left: 0;
+}
+
+.col-xs-8{
+  padding-left: 0;
+}
+
+.remove{
+  padding-top: 0.5em;
+  padding-left: 1em;
+}
+
+
+.scroll_x{
+
+  overflow-x: auto;
+  clear: both;
+  margin-bottom: 1em;
+}
+
+.ui-select-bootstrap .ui-select-choices-row.active>span{
+
+  background-color: #009688!important;
+}
+
+
+
+.nav-header{
+
+  background-image: none;
+
+  background-color: #009688;
+}
+
+ nav > div.nav.navbar-top-links.navbar-right > div{
+
+     float: right;
+     margin-top: 8px;
+ }
+
+
+.nav > li.active {
+    border-left: 4px solid #19aa8d;
+    background: #f8f8f8;
+
+
+
+
+}
+
+.nav > li.active > a{
+
+    color: #5b5d5f;
+    font-weight: 900;
+
+}
+.navbar-default .nav > li > a:hover, .navbar-default .nav > li > a:focus {
+    background-color: #f8f8f8;
+    color: #5b5d5f;
+    font-weight: 900;
+}
+
+.navbar-default .nav > li > ul > li{
+
+    margin-left: 2em;
+}
+
+
+
+.navbar-default {
+
+    font-weight: 500;
+    background-color: white;
+    border-color: #2f4050;
+
+}
+
+.nav li.disabled {
+    opacity: .5;
+
+}
+
+.ibox-content{
+  height: 100%;
+}
+
+body, html{
+
+  height: 100%;
+}
+
+.ibox-content h5 {
+
+  font-size: 14px;
+  margin: 0px 0 25px 5px;
+  padding: 0;
+  text-overflow: ellipsis;
+
+}
+
+.form-group > p{
+
+  padding-top: 7px;
+  margin-bottom: 0;
+}
+
+.nav > li.active{
+
+  border-left: none;
+}
+
+
+.margin_tytles {
+
+
+  margin-right: 0;
+
+
+}
+
+.tabs_box{
+
+  margin-top: 2em;
+
+
+}
+
+.nav-tabs li.active{
+
+  background-color: white;
+
+}
+
+.nav-tabs>li{
+
+  margin-bottom: -2px;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+
+  border-bottom: none;
+
+}
+
+div.box_content{
+
+  padding-top: 1.5em;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: white;
+  margin-bottom: 1em;
+  padding-right: 1em;
+
+}
+
+
+
+
+.tytles{
+
+  margin-bottom: 0;
+
+
+}
+
+
+
+
+body{
+    background-color: white;
+}
+ #right-sidebar, .navbar-fixed-top, .navbar-static-side, .navbar-static-top, .navbar-default {
+
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+    0 3px 1px -2px rgba(0,0,0,0.2),
+    0 1px 5px 0 rgba(0,0,0,0.12);
+}
+.page-heading {
+    border-bottom: none!important;
+    border-top: 0;
+    padding: 0 10px 20px;
+    box-shadow: 0 1px 1px -1px rgba(0,0,0,.34), 0 0 6px 0 rgba(0,0,0,.14);
+    padding-left: 2em;
+}
+
+div.ui-select-container.ui-select-multiple.ui-select-bootstrap.dropdown
+{
+
+    width: 100%!important;
+
+}
+
+div.ui-select-container.ui-select-multiple.ui-select-bootstrap.open{
+
+  border: 1px solid #009688!important;
+}
+
+.dataTables_filter{
+    float: right;
+}
+
+h2.title_top{
+    float:left;
+    color: white;
+    font-size: 1.5em;
+    padding-left: 1em;
+}
+.profile-element{
+    font-weight: bold;
+}
+
+div.pagination_tables{
+    text-align: right;
+
+}
+
+
+.pagination{
+
+    margin-top: 5px;
+}
+ div > label{
+     margin-bottom: 15px;
+ }
+
+ .collection_check{
+
+     height: 1.5em;
+     width: 1.5em;
+ }
+
+
+/* iCheck plugin Square skin, green
+----------------------------------- */
+.icheckbox_square-green,
+.iradio_square-green {
+  display: inline-block;
+  *display: inline;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  width: 22px;
+  height: 22px;
+  background: url('../assets/green.png') no-repeat;
+  border: none;
+  cursor: pointer;
+}
+.icheckbox_square-green > input{
+
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  position: absolute;
+  opacity: 0;
+}
+
+.icheckbox_square-green {
+  background-position: 0 0;
+}
+.icheckbox_square-green:hover {
+  background-position: -24px 0;
+}
+.icheckbox_square-green.checked {
+  background-position: -48px 0;
+}
+.icheckbox_square-green.disabled {
+  background-position: -72px 0;
+  cursor: default;
+}
+.icheckbox_square-green.checked.disabled {
+  background-position: -96px 0;
+}
+.word-wrap{
+
+  word-wrap: break-word;
+}
+
